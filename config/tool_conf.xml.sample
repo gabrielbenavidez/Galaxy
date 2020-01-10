@@ -126,4 +126,32 @@
     <tool file="phenotype_association/ldtools.xml" />
     <tool file="phenotype_association/master2pg.xml" />
   </section>
+  <section id="infotechqiime" name="infotechqiime2">
+     <tool file="qiime2/qiime_tools_import.xml" />
+     <tool file="qiime2/merge_feature_table_and_taxonomy.xml" />
+     <tool file="qiime2/qiime_alignment_mafft.xml" />
+     <tool file="qiime2/qiime_alignment_mask.xml" />
+     <tool file="qiime2/qiime_composition_add-pseudocount.xml" />
+     <tool file="qiime2/qiime_composition_ancom.xml" />
+     <tool file="qiime2/qiime_cutadapt_demux-paired.xml" />
+     <tool file="qiime2/qiime_cutadapt_demux-single.xml" />
+     <tool file="qiime2/qiime_cutadapt_trim-paired.xml" />
+     <tool file="qiime2/qiime_cutadapt_trim-single.xml" />
+     <tool file="qiime2/qiime_dada2_denoise-paired.xml" />
+     <tool file="qiime2/qiime_dada2_denoise-pyro.xml" />
+     <tool file="qiime2/qiime_dada2_denoise-single.xml" />
+     <tool file="qiime2/qiime_deblur_denoise-16s.xml" />
+     <tool file="qiime2/qiime_deblur_denoise-other.xml" />
+     <tool file="qiime2/qiime_deblur_visualize-stats.xml" />
+     <tool file="qiime2/qiime_demux_summarize.xml" />
+     <tool file="qiime2/qiime_vsearch_join-pairs.xml" />
+     <tool file="qiime2/qiime_tools_export.xml" />
+  </section>
+  <section id="ITS" name="percentabundance">
+     <tool file="percent_abundance/percent_abundance_gabe_modified.xml" />
+     <tool file="percent_abundance/percent_abundance_hannah_modified.xml" />
+  </section>
+  <section id="GT" name="GT">
+      <tool file="genetegra_query/genetegra_query.xml" />
+  </section>
 </toolbox>
