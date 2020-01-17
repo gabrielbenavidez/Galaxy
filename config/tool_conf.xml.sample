@@ -126,7 +126,7 @@
     <tool file="phenotype_association/ldtools.xml" />
     <tool file="phenotype_association/master2pg.xml" />
   </section>
-  <section id="infotechqiime" name="infotechqiime2">
+  <section id="qiime2" name="qiime2">
      <tool file="qiime2/qiime_tools_import.xml" />
      <tool file="qiime2/merge_feature_table_and_taxonomy.xml" />
      <tool file="qiime2/qiime_alignment_mafft.xml" />

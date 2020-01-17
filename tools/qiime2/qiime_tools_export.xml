@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<tool id="qiime_tools_export" name="qiime tools export --input-path" version="2019.7">
+	<requirements>
+		<container type="docker">qiime2/core</container>
+	</requirements>
+	<command>
+        <![CDATA[ qiime tools export --input-path $isequences --output-path result ]]>
+    </command>
+	<inputs>
+        <param format="qza,no_unzip.zip" label="Input artifact to export! [required]" name="isequences" optional="False" type="data"/>
+    </inputs>
+	<outputs>
+        <data format="txt" name="report">
+            <discover_datasets pattern="__designation_and_ext__" directory="result" visible="true" />
+        </data>
+	</outputs>
+</tool>
